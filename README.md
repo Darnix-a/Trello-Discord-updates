@@ -7,20 +7,24 @@ Real-Time Trello Updates: Automatically sends updates about changes in your Trel
 Discord Integration: Directly posts Trello card details and status updates to specific Discord channels of your choice.
 Automatic Refresh: Updates every 30 seconds to ensure that your Discord channels stay up to date with the latest Trello activity.
 Multi-Channel Support: You can configure multiple Discord channels to track different Trello lists, keeping your project management organized by team, task type, or department.
+
 Setup Instructions:
-1. Get Your Tokens:
+# 1. Get Your Tokens:
 
 Discord bot token: Go to Discord Developer Portal, create a new app, and get your bot token.
+
 Trello API key & token: Visit Trello API and generate your API key and token.
+
 Trello board ID: Find your board ID in the URL after /b/ (e.g., https://trello.com/b/THIS_PART_HERE/board-name).
-2. Edit config.json: Modify the config.json file to include your credentials and settings
+
+# 2. Edit config.json: Modify the config.json file to include your credentials and settings
 Ensure that the list_name in the configuration matches the exact Trello list you want the bot to track.
 
-3. Install Requirements: Run the following command to install necessary dependencies:
+# 3. Install Requirements: Run the following command to install necessary dependencies:
 
 pip install discord.py requests
 
-4. Add More Channels: To add more channels, simply copy the format for each additional channel in config.json and update the list_name to match the corresponding Trello list.
+# 4. Add More Channels: To add more channels, simply copy the format for each additional channel in config.json and update the list_name to match the corresponding Trello list.
 
 Enjoy Efficient Project Management: With Trello-Discord Bot, your team will have the power of real-time collaboration at their fingertips, making task tracking more efficient and communication more streamlined within Discord.
 
