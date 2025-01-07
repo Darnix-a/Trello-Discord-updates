@@ -24,7 +24,10 @@ Ensure that the list_name in the configuration matches the exact Trello list you
 
 pip install discord.py requests
 
-# 4. Add More Channels: To add more channels, simply copy the format for each additional channel in config.json and update the list_name to match the corresponding Trello list.
+# 4. Add More Channels: 
 
-Enjoy Efficient Project Management: With Trello-Discord Bot, your team will have the power of real-time collaboration at their fingertips, making task tracking more efficient and communication more streamlined within Discord.
+To add more channels, simply copy the format for each additional channel in config.json and update the list_name to match the corresponding Trello list.
+
+# Enjoy Efficient Project Management:
+With Trello-Discord Bot, your team will have the power of real-time collaboration at their fingertips, making task tracking more efficient and communication more streamlined within Discord.
 
