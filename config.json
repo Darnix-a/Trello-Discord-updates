@@ -1,0 +1,16 @@
+{
+    "discord": {
+        "token": "discord-bot-token"
+    },
+    "trello": {
+        "api_key": "trello-api-key",
+        "token": "trello-token",
+        "board_id": "board-id"
+    },
+    "channels": {
+        "channel-name": {
+            "channel_id": discord-channel-id,
+            "list_name": "Trello List Name"
+        }
+    }
+}
